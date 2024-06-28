@@ -11,7 +11,7 @@ export default [
       "albumMasFamoso":"Master of Puppets",
       "integrantes":["James Hetfield", "Lars Ulrich", "Kirk Hammett", "Robert Trujillo"]
     }
-  },/*
+  },
   {
     "id": "paramore",
     "name": "Paramore",
@@ -147,7 +147,7 @@ export default [
     "name": "Red Hot Chili Peppers",
     "descripcionCorta": "Banda de rock funk.",
     "descripcionLarga": "Red Hot Chili Peppers es una banda estadounidense de rock formada en 1983 en Los Ángeles, California. La banda es conocida por su mezcla única de rock, funk y punk, y ha lanzado numerosos álbumes exitosos a lo largo de su carrera.",
-    "imageUrl": "https://example.com/rhcp.jpg",/*OJO CAMBIAR URL X UNA REAL*
+    "imageUrl": "https://example.com/rhcp.jpg",//OJO CAMBIAR URL X UNA REAL
     "facts": {
       "añoCreacion": "1983",
       "lugarCreacion": "Los Ángeles, California, Estados Unidos",
@@ -160,7 +160,7 @@ export default [
     "nane": "Evanescence",
     "descripcionCorta": "Banda de rock gótico.",
     "descripcionLarga": "Evanescence es una banda estadounidense de rock gótico formada en 1995 en Little Rock, Arkansas. La banda es conocida por la poderosa voz de Amy Lee y su sonido melódico, mezclando elementos de rock, metal y música clásica.",
-    "imageUrl": "https://example.com/evanescence.jpg",/*OJO CAMBIAR URL X UNA REAL*
+    "imageUrl": "https://example.com/evanescence.jpg",//OJO CAMBIAR URL X UNA REAL*
     "facts": {
       "añoCreacion": "1995",
       "lugarCreacion": "Little Rock, Arkansas, Estados Unidos",
@@ -173,7 +173,7 @@ export default [
     "name": "Black Veil Brides",
     "descripcionCorta": "Banda de rock gótico.",
     "descripcionLarga": "Black Veil Brides es una banda estadounidense de rock formada en 2006 en Cincinnati, Ohio. La banda es conocida por su estética inspirada en el glam metal y su sonido contundente, y ha lanzado varios álbumes exitosos en la escena del rock moderno.",
-    "imageUrl": "https://example.com/blackveilbrides.jpg", /*OJO CAMBIAR URL X UNA REAL*
+    "imageUrl": "https://example.com/blackveilbrides.jpg", //OJO CAMBIAR URL X UNA REAL*
     "facts": {
       "añoCreacion": "2006",
       "lugarCreacion": "Cincinnati, Ohio, Estados Unidos",
@@ -186,7 +186,7 @@ export default [
     "name": "Duran Duran",
     "descripcionCorta": "Banda de new wave.",
     "descripcionLarga": "Duran Duran es una banda británica de new wave formada en 1978 en Birmingham, Inglaterra. Conocida por sus éxitos en los años 80 y su estilo visual innovador, la banda ha vendido más de 100 millones de discos en todo el mundo.",
-    "imageUrl": "https://example.com/duranduran.jpg",/*OJO CAMBIAR URL X UNA REAL*
+    "imageUrl": "https://example.com/duranduran.jpg",//OJO CAMBIAR URL X UNA REAL*
     "facts": {
       "añoCreacion": "1978",
       "lugarCreacion": "Birmingham, Inglaterra",
@@ -199,7 +199,7 @@ export default [
     "name": "Korn",
     "descripcionCorta": "Pioneros del nu metal.",
     "descripcionLarga": "Korn es una banda estadounidense de nu metal formada en 1993 en Bakersfield, California. La banda es conocida por su sonido innovador y agresivo, que combina elementos de metal, hip hop y música industrial.",
-    "imageUrl": "https://example.com/korn.jpg",/*OJO CAMBIAR URL X UNA REAL*
+    "imageUrl": "https://example.com/korn.jpg",//OJO CAMBIAR URL X UNA REAL*
     "facts": {
       "añoCreacion": "1993",
       "lugarCreacion": "Bakersfield, California, Estados Unidos",
@@ -212,7 +212,7 @@ export default [
     "name": "System of a Down",
     "descripcionCorta": "Banda de metal alternativo.",
     "descripcionLarga": "System of a Down es una banda estadounidense de metal alternativo formada en 1994 en Glendale, California. La banda es conocida por su estilo único y ecléctico, y por sus letras que abordan temas políticos y sociales.",
-    "imageUrl": "https://example.com/systemofadown.jpg",/*OJO CAMBIAR URL X UNA REAL*
+    "imageUrl": "https://example.com/systemofadown.jpg",//OJO CAMBIAR URL X UNA REAL*
     "facts":{
       "añoCreacion": "1994",
       "lugarCreacion": "Glendale, California, Estados Unidos",
@@ -225,7 +225,7 @@ export default [
     "name": "Nirvana",
     "descripcionCorta": "Iconos del grunge.",
     "descripcionLarga": "Nirvana fue una banda estadounidense de grunge formada en 1987 en Aberdeen, Washington. Con Kurt Cobain como líder, la banda se convirtió en uno de los actos más influyentes de los años 90, gracias a su sonido crudo y emocional.",
-    "imageUrl": "https://example.com/nirvana.jpg", /*OJO CAMBIAR URL X UNA REAL*
+    "imageUrl": "https://example.com/nirvana.jpg", //OJO CAMBIAR URL X UNA REAL*
     "facts": {
       "añoCreacion": "1987",
       "lugarCreacion": "Aberdeen, Washington, Estados Unidos",
@@ -238,7 +238,7 @@ export default [
     "name": "Foo Fighters",
     "descripcionCorta": "Banda de rock alternativo.",
     "descripcionLarga": "Foo Fighters es una banda estadounidense de rock alternativo formada en 1994 en Seattle, Washington por Dave Grohl, exbaterista de Nirvana. La banda es conocida por su enérgico sonido de rock y ha lanzado numerosos álbumes exitosos.",
-    "imageUrl": "https://example.com/foofighters.jpg",/*OJO CAMBIAR URL X UNA REAL*
+    "imageUrl": "https://example.com/foofighters.jpg",//OJO CAMBIAR URL X UNA REAL*
     "facts": {
       "añoCreacion": "1994",
       "lugarCreacion": "Seattle, Washington, Estados Unidos",
@@ -251,7 +251,7 @@ export default [
     "name": "Linkin Park",
     "descripcionCorta": "Banda de nu metal.",
     "descripcionLarga": "Linkin Park es una banda estadounidense de rock alternativo y nu metal formada en 1996 en Agoura Hills, California. Conocida por su fusión de metal, rap y electrónica, la banda alcanzó la fama mundial con su álbum debut 'Hybrid Theory'.",
-    "imageUrl": "https://example.com/linkinpark.jpg", /*OJO CAMBIAR URL X UNA REAL*
+    "imageUrl": "https://example.com/linkinpark.jpg", //OJO CAMBIAR URL X UNA REAL*
     "facts": {
       "añoCreacion": "1996",
       "lugarCreacion": "Agoura Hills, California, Estados Unidos",
@@ -264,7 +264,7 @@ export default [
     "name": "Panic! at the Disco",
     "descripcionCorta": "Banda de rock alternativo.",
     "descripcionLarga": "Panic! at the Disco es una banda estadounidense de rock alternativo formada en 2004 en Las Vegas, Nevada. Conocida por su estilo teatral y su sonido ecléctico, la banda ha lanzado varios álbumes exitosos y ha ganado numerosos premios.",
-    "imageUrl": "https://example.com/panicatthedisco.jpg",/*OJO CAMBIAR URL X UNA REAL*
+    "imageUrl": "https://example.com/panicatthedisco.jpg",//OJO CAMBIAR URL X UNA REAL
     "facts": {
       "añoCreacion": "2004",
       "lugarCreacion": "Las Vegas, Nevada, Estados Unidos",
@@ -277,7 +277,7 @@ export default [
     "name": "Pearl Jam",
     "descripcionCorta": "Banda de grunge.",
     "descripcionLarga": "Pearl Jam es una banda estadounidense de grunge formada en 1990 en Seattle, Washington. Con Eddie Vedder como vocalista, la banda es conocida por su sonido potente y sus letras introspectivas, y es una de las bandas más importantes del movimiento grunge.",
-    "imageUrl": "https://example.com/pearljam.jpg",/*OJO CAMBIAR URL X UNA REAL*
+    "imageUrl": "https://example.com/pearljam.jpg",
     "facts": {
       "añoCreacion": "1990",
       "lugarCreacion": "Seattle, Washington, Estados Unidos",
@@ -290,7 +290,7 @@ export default [
     "name": "The Beatles",
     "descripcionCorta": "Iconos del rock británico.",
     "descripcionLarga": "The Beatles fueron una banda británica de rock formada en 1960 en Liverpool. Conocida como la banda más influyente de la historia, su música innovadora y sus letras profundas han dejado un legado duradero en la cultura popular.",
-    "imageUrl": "https://example.com/thebeatles.jpg",/*OJO CAMBIAR URL X UNA REAL*
+    "imageUrl": "https://example.com/thebeatles.jpg",
     "facts": {
       "añoCreacion": "1960",
       "lugarCreacion": "Liverpool, Inglaterra",
@@ -303,7 +303,7 @@ export default [
     "name": "The Rolling Stones",
     "descripcionCorta": "Leyendas del rock.",
     "descripcionLarga": "The Rolling Stones son una banda británica de rock formada en 1962 en Londres. Con Mick Jagger y Keith Richards a la cabeza, la banda es conocida por su música revolucionaria y su energía en el escenario, siendo una de las bandas más exitosas de todos los tiempos.",
-    "imageUrl": "https://example.com/therollingstones.jpg",/*OJO CAMBIAR URL X UNA REAL
+    "imageUrl": "https://example.com/therollingstones.jpg",
     "facts": {
       "añoCreacion": "1962",
       "lugarCreacion": "Londres, Inglaterra",
@@ -311,5 +311,5 @@ export default [
       "integrantes": ["Mick Jagger", "Keith Richards", "Charlie Watts", "Ronnie Wood"]
     }
     
-  }*/
+  }
 ];
