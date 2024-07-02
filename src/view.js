@@ -5,6 +5,8 @@ export const renderItems = (data) => {
   // Aquí comienza tu código y puedes retornar lo que tu necesites
   data.forEach((element)=> {
     console.log(element.name)
+    newElementUl.innerHTML += `<p>${element.name} </p>`
+    newElementUl.innerHTML += `<p>${element.shortDescripcion}</p>`
   })
   
  
