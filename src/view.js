@@ -2,14 +2,23 @@ export const renderItems = (data) => {
  
 
   const newElementUl = document.createElement("ul");
+  
+
+  
   // Aquí comienza tu código y puedes retornar lo que tu necesites
   data.forEach((element)=> {
-    console.log(element.name)
-    newElementUl.innerHTML += `<p>${element.name} </p>`
+    
+    const newElementLi = document.createElement("li"); 
+       
+    newElementLi.innerHTML = `<img src="${element.imageUrl}" alt="${element.id}"/>`
+    newElementUl.appendChild(newElementLi);
+    newElementUl.innerHTML += `<p><strong>${element.name}</strong></p>`
     newElementUl.innerHTML += `<p>${element.shortDescripcion}</p>`
+    newElementUl.innerHTML += `<p>Año de creación:${element.facts.añoCreacion}</p>`,
+    newElementUl.innerHTML += `<p>Lugar de Origen:${element.facts.lugarCreacion}</p>`,
+    newElementUl.innerHTML += `<p>Album más vendido:${element.facts.albumMasFamoso}</p>`,
+    newElementUl.innerHTML += `<p>Integrantes:${element.facts.integrantes}</p>`
   })
-  
- 
   return newElementUl;
  
 

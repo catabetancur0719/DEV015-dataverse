@@ -1,5 +1,16 @@
+ul{
+ background-color: #ffffff; 
+ display: 0 auto;
+ flex-wrap:0;
+ }
+img{
+ height:25% ; 
+ width:25%;   
+}
+li{
+list-style-type: none;/*elimina las viñeta*/
+}
 
-#metallica{
-display:rubi;
-background-color: blueviolet;
+footer{
+margin:60px;   
 }

@@ -3,13 +3,13 @@ export default [
     'id': 'metallica',
     'name':'Metallica',
     "shortDescripcion":"Legendaria banda de thrash metal.",
-    "descripcion":"Metallica es una banda estadounidense de thrash metal formada en 1981 en Los Ángeles, California. Es considerada una de las bandas más influyentes y exitosas en la historia del metal, conocida por su energía y la destreza técnica de sus miembros.",
-    "imageUrl": "https://example.com/metallica.jpg",
+    "descripcionLarga":"Metallica es una banda estadounidense de thrash metal formada en 1981 en Los Ángeles, California. Es considerada una de las bandas más influyentes y exitosas en la historia del metal, conocida por su energía y la destreza técnica de sus miembros.",
+    "imageUrl":"https://www.futuro.cl/wp-content/uploads/2022/08/metallica-7-768x433.jpg",
     "facts": {
       "añoCreacion":"1981",
-      "lugarCreacion":"Los Ángeles, California, Estados Unidos",
-      "albumMasFamoso":"Master of Puppets",
-      "integrantes":["James Hetfield", "Lars Ulrich", "Kirk Hammett", "Robert Trujillo"]
+      "lugarCreacion":"Los Ángeles, California, Estados Unidos.",
+      "albumMasFamoso":"Master of Puppets.",
+      "integrantes":["James Hetfield", "Lars Ulrich", "Kirk Hammett", "Robert Trujillo."]
     }
   },
   {
@@ -17,9 +17,9 @@ export default [
     "name": "Paramore",
     "shortDescripcion": "Banda de rock alternativo.",
     "descripcionLarga": "Paramore es una banda estadounidense de rock alternativo formada en 2004 en Franklin, Tennessee. La banda es conocida por su sonido energético y la potente voz de su vocalista Hayley Williams, y ha lanzado varios álbumes exitosos a lo largo de su carrera.",
-    "imageUrl": "https://example.com/paramore.jpg",
+    "imageUrl":"https://www.irock.cl/wp-content/uploads/2013/03/Paramore.jpg",
     "facts": {
-      "añoCreacion": "2004",
+      "añoCreacion": " 2004",
       "lugarCreacion": "Franklin, Tennessee, Estados Unidos",
       "albumMasFamoso": "Riot!",
       "integrantes": ["Hayley Williams", "Taylor York", "Zac Farro"]
@@ -30,7 +30,7 @@ export default [
     "name": "Queen",
     "shortDescripcion": "Iconos del rock británico.",
     "descripcionLarga": "Queen es una banda británica de rock formada en 1970 en Londres. Es conocida por sus innovadoras canciones, la poderosa voz de Freddie Mercury y su espectacular presencia escénica. Han creado numerosos himnos del rock como 'Bohemian Rhapsody' y 'We Will Rock You'.",
-    "imageUrl": "https://example.com/queen.jpg",
+    "imageUrl": "https://www.rockandpop.cl/wp-content/uploads/2019/09/queen-1-300x210.jpg",
     "facts": {
       "añoCreacion": "1970",
       "lugarCreacion": "Londres, Inglaterra",
@@ -43,7 +43,7 @@ export default [
     "name": "Bon Jovi",
     "shortDescripcion": "Banda de rock estadounidense.",
     "descripcionLarga": "Bon Jovi es una banda estadounidense de rock formada en 1983 en Sayreville, Nueva Jersey. Liderada por Jon Bon Jovi, la banda es conocida por sus pegajosas canciones de rock y baladas, y ha vendido más de 130 millones de álbumes en todo el mundo.",
-    "imageUrl": "https://example.com/bonjovi.jpg",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/6145a7b457c18a3bdc94fef6/09c8db48-638f-4217-9f5b-8877ac0d04dc/Repasamos+la+%C3%BAltima+gran+obra+de+la+banda+con+el+guitarrista+Richie+Sambora%2C+que+luego+de+una+d%C3%A9cada+se+habla+de+un+posible+regreso.+.jpeg?format=1500w",
     "facts": {
       "añoCreacion": "1983",
       "lugarCreacion": "Sayreville, Nueva Jersey, Estados Unidos",
@@ -52,11 +52,11 @@ export default [
     }
   },
   {
-    "id": "green-day",
-    "name": "green",
-    "dshortDescripcion": "Pioneros del punk rock.",
+    "id": "green",
+    "name": "Green Day",
+    "shortDescripcion": "Pioneros del punk rock.",
     "descripcionLarga": "Green Day es una banda estadounidense de punk rock formada en 1987 en Berkeley, California. Es conocida por revivir el interés en el punk rock a mediados de los 90 con su álbum 'Dookie'. La banda ha ganado numerosos premios y es reconocida por sus enérgicas actuaciones en vivo.",
-    "imageUrl": "https://example.com/greenday.jpg",
+    "imageUrl": "https://www.parlante.cl/wp-content/uploads/2017/11/greenday2017.jpg",
     "facts": {
       "añoCreacion": "1987",
       "lugarCreacion": "Berkeley, California, Estados Unidos",
@@ -69,14 +69,14 @@ export default [
     "name": "U2",
     "dshortDescripcion": "Banda de rock irlandesa.",
     "descripcionLarga": "U2 es una banda de rock irlandesa formada en 1976 en Dublín. Con el carismático Bono como líder, la banda es conocida por sus letras profundamente emotivas y su sonido innovador. Han vendido más de 150 millones de álbumes en todo el mundo.",
-    "imageUrl": "https://example.com/u2.jpg",
+    "imageUrl":"https://indianexpress.com/wp-content/uploads/2014/02/u2-480.jpg",
     "facts": {
       "añoCreacion": "1976",
       "lugarCreacion": "Dublín, Irlanda",
       "albumMasFamoso": "The Joshua Tree",
       "integrantes": ["Bono", "The Edge", "Adam Clayton", "Larry Mullen Jr."]
     }
-  },
+  },/*
   {
     "id": "guns",
     "name": "Guns N' Roses",
@@ -311,5 +311,5 @@ export default [
       "integrantes": ["Mick Jagger", "Keith Richards", "Charlie Watts", "Ronnie Wood"]
     }
     
-  }
+  }*/
 ];

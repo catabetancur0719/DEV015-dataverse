@@ -6,4 +6,4 @@ import data from './data/dataset.js';
 
 console.log(example, renderItems(data), data);
 const root =  document.getElementById("root");
-root.appendChild(renderItems(data))
+root.appendChild(renderItems(data)) //esta inyectando el contenido generado en data
