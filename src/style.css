@@ -1,15 +1,35 @@
-ul{
- background-color: #ffffff; 
- display: 0 auto;
- flex-wrap:0;
+body{
+ background-color: #fffdfd;
+}
+.title{
+ font-family:'Gothic Medium'; 
+text-align: center; 
+ color:#000000;  
+
+}
+
+
+/*ul{
+  background-color: #4ed6c4;  
+  border:2px solid #211c3b;
+  border-radius:30px;
+  
+ }*/
+li{
+height: 200px;  
+width:317px ;
+background-color: rgb(161, 9, 9);
+border-radius:15px;
+list-style-type: none;/*elimina las viñeta*/
  }
 img{
- height:25% ; 
- width:25%;   
+height:200px; 
+width:317px;
+border:1px solid rgb(0, 0, 0);
+border-radius:15px;
+
 }
-li{
-list-style-type: none;/*elimina las viñeta*/
-}
+
 
 footer{
 margin:60px;   

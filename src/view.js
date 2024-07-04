@@ -3,8 +3,6 @@ export const renderItems = (data) => {
 
   const newElementUl = document.createElement("ul");
   
-
-  
   // Aquí comienza tu código y puedes retornar lo que tu necesites
   data.forEach((element)=> {
     
