@@ -18,9 +18,11 @@ export const renderItems = (data) => {
     newElementUl.innerHTML += `<p>Integrantes:${element.facts.integrantes}</p>`
   })
   return newElementUl;
- 
-
 };
+
+ 
+ 
+   
 
 /* <ul itemscope itemtype="Bandas-de-rock">
     <li>Metallica
