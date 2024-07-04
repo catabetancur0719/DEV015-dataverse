@@ -6,6 +6,81 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+  <div class="container">
+  <div class="title">
+   <header>
+      <h1>House of Rock</h1> 
+   </header> 
+   <main>
+    <h2><p>¡Bienvenido a House of Rock! En esta plataforma encontrarás las bandas más emblemáticas
+            del rock.</p></h2>
+   </main>
+  </div>
+  <div class="filtros"> 
+    <form action="">
+      <label for="banda">Buscar:</label>
+      <input type="text" id="banda" name="nombre" placeholder="Ingrese una banda"/>    
+      <label for="año">Año:</label>
+      <select data-testid="select-filter" name="year"  id="año"> 
+        <option value="1960">1960</option> <!-- The Beatles -->
+        <option value="1962">1962</option> <!-- The Rolling Stones -->
+        <option value="1970">1970</option> <!-- Queen Aerosmith -->
+        <option value="1973">1973</option> <!-- AC/DC -->
+        <option value="1976">1976</option> <!-- U2 -->
+        <option value="1978">1978</option> <!-- Duran Duran -->
+        <option value="1981">1981</option> <!-- Metallica -->
+        <option value="1983">1983</option> <!-- Bon Jovi  Red Hot Chili Peppers -->
+        <option value="1985">1985</option> <!-- Guns N' Roses -->
+        <option value="1986">1986</option> <!-- Green Day -->
+        <option value="1987">1987</option> <!-- Nirvana -->
+        <option value="1990">1990</option> <!-- Pearl Jam -->
+        <option value="1992">1992</option> <!-- Blink-182 -->
+        <option value="1993">1993</option> <!-- Korn -->
+        <option value="1994">1994</option> <!-- System of a Down  Foo Fighters-->
+        <option value="1995">1995</option> <!-- Evanescence -->
+        <option value="1996">1996</option> <!-- Linkin Park -->
+        <option value="1998">1998</option> <!-- 30 Seconds to Mars -->
+        <option value="2004">2004</option> <!-- Paramore Panic! at the Disco -->
+        <option value="2006">2006</option> <!-- Black Veil Brides -->
+      </select>
+      <button type="reset" id="btn">Limpiar</button>
+    </form>
+  </div>
+  <div class="tarjetas" id="root">
+  
+  <!--<ul>
+    <li name="metallica" itemtype="bandasRock " id="Metallica">
+       <h2> booom<h2>
+    </li>
+    <li name="paramore" >Paramore</li>
+    <li name="queen">Queen</li>
+    <li name="bon-jovi">Bon Jovi</li>
+    <li name="gree-nday">Green day</li>
+    <li name="u2">U2</li>
+    <li name="guns-">Guns and roses</li>
+    <li name="aero-smith">Aero Smith</li>
+    <li name="acdc">AC/DC</li>
+    <li name="blink">blink 182</li>
+    <li name="mars">30 Seconds to Mars</li>
+    <li name="chile">Red Hot Chili Peppers</li>
+    <li name="eva">Evanescence</li>
+    <li name="black">Black veil brides</li>
+    <li name="duran">Duran duran</li>
+    <li name="korn">Korn</li>
+    <li name="soad">Sistem of a Down</li>
+    <li name="nirvana">Nirvana</li>
+    <li name="foo">Foo Fighters</li>
+    <li name="linkin">Linkin park</li>
+    <li name="panic">Panic at the disco</li>
+    <li name="perl">Perl Jam</li>
+    <li name="beatles">The Beatles</li>
+    <li name="rolling">The Rolling Stone</li>
+    
+  </ul>-->
+
+  </div>
+  <footer> Catalina Betancur y Fernanda Álvarez @All rigth reserved </footer>
+    </div>
     <script src="main.js" type="module"></script>
   </body>
 </html>
