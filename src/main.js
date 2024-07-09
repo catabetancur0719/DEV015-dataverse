@@ -12,7 +12,7 @@ root.appendChild(renderItems(data)) //esta inyectando el contenido generado en d
 /*const selectOrder = document.getElementById("select-order");
 selectOrder.addEventListener ("change", (event) => {
   const newValue = event.target.value;
-  const default = [];
+
   switch (newValue) {
   case "asc":
     default.sort();

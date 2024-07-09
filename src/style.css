@@ -1,27 +1,47 @@
 body{
-background:linear-gradient(135deg,#120e3a,#0b0b27,#000000);
+background:linear-gradient(135deg,#0b0b27,#000000);
 background-attachment: fixed;
-
-
 }
-.title{
+#banner img {
+  height:300px; 
+  width: 750px; /*ancho*/
+  margin-left:350px ;
+  /*object-fit:cover;*/
+  justify-content: center; /* Centra horizontalmente */
+ 
+  }
+  
+header,main{
  font-family:'Gothic Medium'; 
  text-align: center; 
- margin-top:200px;
+ display:flexbox;
  color:#f3eaea;   
- 
+ }
 
-
+select{
+height:35px;
+width:160px ;
+display:center; 
+padding:10px ;
+background-color: rgb(160, 169, 197);
+}
+/*boton limpia fltros*/
+[data-testid="button-clear"]{
+    height:35px;
+    width:100px; /*ancho*/
+    background-color: #07177049;
+    margin:0 auto;
+    border-color: #15153f;
+    border-radius: 09px;
+    font-size: 15px;
+    color:whitesmoke;
+    cursor: pointer;  /*Cambia la forma del cursor al pasar sobre el botón */  
+}
+[data-testid="button-clear"]:hover{
+    background-color: #5b5cc4;
 }
 
-.filtros{
-height:20px ;
-width:300px ;
-box-align: center ; 
-padding:20px ;
-background-color: yellow;
-
-}
+/*estilos para las tarjetas ul y li*/
 ul{
 color:#f3eaea; 
 border-radius:30px;
