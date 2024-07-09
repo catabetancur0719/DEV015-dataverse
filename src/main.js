@@ -8,10 +8,23 @@ console.log(sortData,renderItems(data), data);
 const root =  document.getElementById("root");
 root.appendChild(renderItems(data)) //esta inyectando el contenido generado en data
 
-const selectOrder = document.getElementById("select-order");
+
+/*const selectOrder = document.getElementById("select-order");
 selectOrder.addEventListener ("change", (event) => {
-    
-console.log("hola")
-});
+  const newValue = event.target.value;
+  const default = [];
+  switch (newValue) {
+  case "asc":
+    default.sort();
+    break;
+  case "desc":
+    default.sort().reverse();
+  }   
+
+  newValue.sort();
+  console.log(default);
+});*/
+
+
 
 
