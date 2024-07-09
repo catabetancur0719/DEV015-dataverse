@@ -1,26 +1,30 @@
-import { example } from './dataFunctions.js';
+import {sortData } from './dataFunctions.js';
 import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
 //aqui va todo lo del DOM eventos de escucha y mostrar datos en pantalla
 
-console.log(example, renderItems(data), data);
+console.log(sortData,renderItems(data), data);
 const root =  document.getElementById("root");
 root.appendChild(renderItems(data)) //esta inyectando el contenido generado en data
 
-// de aqui hacia abajo es codigo de prueba
-const searchInput = document.getElementById("banda");
 
-const handleSearch = () => {
-  const searchTerm = searchInput.value.toLowerCase();
-  const filterRoot = root.filter( (banda)=> banda.name.toLowerCase().startWith(searchTerm));
+/*const selectOrder = document.getElementById("select-order");
+selectOrder.addEventListener ("change", (event) => {
+  const newValue = event.target.value;
 
-  filterRoot.forEach= (banda) =>{
-    const li = document.createElemente("li");
-    li.textContent = banda.name;
-    root.appendChild(li);
-    
-  }
+  switch (newValue) {
+  case "asc":
+    default.sort();
+    break;
+  case "desc":
+    default.sort().reverse();
+  }   
 
-};
-searchInput.addEventListener("input", handleSearch);
+  newValue.sort();
+  console.log(default);
+});*/
+
+
+
+
