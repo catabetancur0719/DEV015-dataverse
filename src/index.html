@@ -8,9 +8,7 @@
   <body>
   <div class="container" >
   <div class="banner" id="banner">
-    <!--<img src="../src/img/banner.jpg" alt="banner">-->
-    <img src="https://th.bing.com/th/id/OIG3.vzQg2SxqX4CiL5A_6zNX?w=270&h=270&c=6&r=0&o=5&pid=ImgGn" alt="banner"/>
-
+  <img src="img/banner4.jpg" alt="banner">
   </div>
   <div class="title">
    <header>
@@ -23,8 +21,9 @@
   </div>
   <div class="filtros"> 
     <form action="">
-      <label for="group" >Buscar:</label>
+      <label for="select-order" >Buscar:</label>
       <select name="name" data-testid="select-sort" id="select-order">
+        <option value="selecionar"> selección</option>
         <option value="asc"> A-Z</option>
         <option value="desc"> Z-A</option>
       </select>
@@ -55,12 +54,13 @@
       </select>
       <button type="reset" data-testid="button-clear" id="btn">Limpiar</button>
     </form>
+    <div class="estadistica" id="estadistica"> hola estadistica</div>
   </div>
-  <div class="row row-cds-1 row-cols-md-2 g4" id="root">
-  
+  <div class="tarjetas" id="root">
+   <!-- aqui van las tarjetas-->
   
   </div>
-  <footer> Catalina Betancur y Fernanda Álvarez @All rigth reserved </footer>
+  <footer> Catalina Betancur y Fernanda Álvarez @All Rigth Reserved </footer>
     </div>
     <script src="main.js" type="module"></script>
   </body>

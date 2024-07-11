@@ -7,14 +7,24 @@ export const renderItems = (data) => {
   data.forEach((element)=> {
     
     const newElementLi = document.createElement("li"); 
-    newElementLi.innerHTML = `<img src="${element.imageUrl}" alt="${element.id}"/>`
+    newElementLi.innerHTML += ` 
+    <img src="${element.imageUrl}" alt="${element.id}"/>
+     <p><strong>${element.name}</strong></p>
+     <p>${element.shortDescripcion}</p>
+     <p>Año de creación:${element.facts.añoCreacion}</p> 
+     <p>Lugar de Origen:${element.facts.lugarCreacion}</p>
+     <p>Album más vendido:${element.facts.albumMasFamoso}</p>
+     <p>Integrantes:${element.facts.integrantes}</p> `
+    newElementUl.appendChild(newElementLi);//el ul es el padre y va a tyener un hijo li
+     
+    /*newElementLi.innerHTML = `<img src="${element.imageUrl}" alt="${element.id}"/>`
     newElementUl.appendChild(newElementLi);
     newElementUl.innerHTML += `<p><strong>${element.name}</strong></p>`,
     newElementUl.innerHTML += `<p>${element.shortDescripcion}</p>`,
     newElementUl.innerHTML += `<p>Año de creación:${element.facts.añoCreacion}</p>`,
     newElementUl.innerHTML += `<p>Lugar de Origen:${element.facts.lugarCreacion}</p>`,
     newElementUl.innerHTML += `<p>Album más vendido:${element.facts.albumMasFamoso}</p>`,
-    newElementUl.innerHTML += `<p>Integrantes:${element.facts.integrantes}</p>`
+    newElementUl.innerHTML += `<p>Integrantes:${element.facts.integrantes}</p>`*/
   });
   
   return newElementUl;

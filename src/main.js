@@ -9,21 +9,15 @@ const root =  document.getElementById("root");
 root.appendChild(renderItems(data)) //esta inyectando el contenido generado en data
 
 
-/*const selectOrder = document.getElementById("select-order");
+const selectOrder = document.getElementById("select-order"); 
 selectOrder.addEventListener ("change", (event) => {
   const newValue = event.target.value;
 
-  switch (newValue) {
-  case "asc":
-    default.sort();
-    break;
-  case "desc":
-    default.sort().reverse();
-  }   
+  console.log(sortData(data,"name",newValue));
 
-  newValue.sort();
-  console.log(default);
-});*/
+ 
+  console.log(data);
+});
 
 
 
