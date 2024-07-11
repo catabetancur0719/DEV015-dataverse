@@ -1,16 +1,16 @@
 body{
 background:linear-gradient(135deg,#0b0b27,#000000);
 background-attachment: fixed;
+color:#f3eaea;
 }
 #banner img {
   height:300px; 
-  width: 750px; /*ancho*/
-  margin-left:350px ;
-  /*object-fit:cover;*/
-  justify-content: center; /* Centra horizontalmente */
- 
+  width: 850px; /*ancho*/
+  display:flex;
+  margin:40px auto;
+  object-fit:cover;
   }
-  
+
 header,main{
  font-family:'Gothic Medium'; 
  text-align: center; 
@@ -19,11 +19,13 @@ header,main{
  }
 
 select{
-height:35px;
-width:160px ;
-display:center; 
-padding:10px ;
-background-color: rgb(160, 169, 197);
+  height:35px;
+  width:160px ;
+  flex:content;
+  display:inline-block;
+   
+  padding:6px ;
+  background-color: rgba(109, 215, 241, 0.822);
 }
 /*boton limpia fltros*/
 [data-testid="button-clear"]{
@@ -38,36 +40,60 @@ background-color: rgb(160, 169, 197);
     cursor: pointer;  /*Cambia la forma del cursor al pasar sobre el botón */  
 }
 [data-testid="button-clear"]:hover{
-    background-color: #5b5cc4;
+  background-color: #6e70df;
 }
 
 /*estilos para las tarjetas ul y li*/
+
+.root{
+  height:60% ;
+  width: 60%;
+  margin:35%;
+  /*margin-block:80px ;*/
+  /*padding: 60px;/*separa las tarjetas de los filtros*/
+  display:inline-flexbox;
+  flex-wrap:wrap ;/*este envuelve los elementos li*/
+  
+}
 ul{
-color:#f3eaea; 
-border-radius:30px;
-list-style-type: none;/*elimina las viñeta*/
+  height:70% ;
+  width:70% ;
+  margin:40px auto;
+  padding:20px ;
+  color:#0e0d0d; 
+  display:flex;/* agrupa las tarjetas horizontalmente*/
+  flex-wrap:wrap; /*asegura que los li se envuelvan*/
+  justify-content:space-between;
+  /*list-style-type: none;/*elimina las viñeta*/
  }
 li{
-height: 200px;  
-width:317px ;
-background-color: rgb(161, 9, 9);
-border-radius:15px;
-list-style-type: none;/*elimina las viñeta*/
+  height: 480px;  
+  width:130px; /*ancho*/
+  margin-left:20px; /*esta separa las tarjetas*/
+  margin-bottom:30px;
+  flex-basis:25% ;
+  padding-top:20px;
+  text-align:center;
+  background:linear-gradient(145deg,#e20e0e,#ad0a0a,#e22503,#ad0a0a,#7a0606);
+  border: 2px solid #c92a02;
+  
+  border-radius: 15px;
+  /*flex: 1 1 calc(33.333% - 100px); /* Distribución flexible de los elementos? */
+  /*list-style-type: none;/*elimina las viñeta*/
  }
 
 img{
-height:200px; 
-width:317px;
-border:1px solid rgb(0, 0, 0);
-border-radius:15px;
-
+  height:170px; 
+  width:210px;
+  padding:0;
+  border:5px solid #000000;
+  
+  border-radius:15px;
 }
-
-
 footer{
-color:#f3eaea;  
-text-align: center;
-margin:60px; 
+  color:#f3eaea;  
+  text-align: center;
+  margin:60px; 
 
 }
  
