@@ -45,7 +45,7 @@ select{
 
 /*estilos para las tarjetas ul y li*/
 
-.root{
+#tarjetas{
   height:60% ;
   width: 60%;
   margin:35%;
@@ -66,7 +66,7 @@ ul{
   justify-content:space-between;
   /*list-style-type: none;/*elimina las viñeta*/
  }
-li{
+.cards{
   height: 480px;  
   width:130px; /*ancho*/
   margin-left:20px; /*esta separa las tarjetas*/
@@ -74,9 +74,8 @@ li{
   flex-basis:25% ;
   padding-top:20px;
   text-align:center;
-  background:linear-gradient(145deg,#e20e0e,#ad0a0a,#e22503,#ad0a0a,#7a0606);
   border: 2px solid #c92a02;
-  
+  background:linear-gradient(145deg,#e20e0e,#ad0a0a,#e22503,#ad0a0a,#7a0606);
   border-radius: 15px;
   /*flex: 1 1 calc(33.333% - 100px); /* Distribución flexible de los elementos? */
   /*list-style-type: none;/*elimina las viñeta*/
@@ -94,6 +93,7 @@ footer{
   color:#f3eaea;  
   text-align: center;
   margin:60px; 
+  padding:5px;
 
 }
  

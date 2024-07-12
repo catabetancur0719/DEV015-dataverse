@@ -1,4 +1,14 @@
-// Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
+//aqui van las funciones
+//  aqui van las funciones del filtro
+export const filterData = (data, value) => {
+  if (value === "all") {
+    return data; // Retornar todos los datos si el filtro es "Todos los años"
+  }
+
+  const filterDataResult = data.filter(element => element.facts.añoCreacion === value);
+  //console.log(filterDataResult);
+  return filterDataResult;
+};
 
 export const sortData = (data,sortBy,sortOrder) =>{ //ordena el arreglo
 
@@ -21,13 +31,9 @@ export const sortData = (data,sortBy,sortOrder) =>{ //ordena el arreglo
       }
     }
   }); 
-  console.log (sortDataResult);
+  //console.log (sortDataResult);
   return sortDataResult;
 }
-//  a qui van las funciones del filtro
 
-
-
-
-  
+//funcion para recibir los calculos x estadistica
 
