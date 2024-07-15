@@ -1,7 +1,8 @@
-import {filterData} from './dataFunctions.js';
-import {sortData } from './dataFunctions.js';
-import {renderItems} from './view.js';
+import {filterData,sortData,computeStats} from './dataFunctions.js';
+import {renderItems,usaPromedio} from './view.js';
 import data from './data/dataset.js';
+computeStats(data);
+usaPromedio(data);
 //aqui va todo lo del DOM eventos de escucha y mostrar datos en pantalla
 
 //console.log(sortData,renderItems(data), data);
@@ -27,7 +28,6 @@ selectOrder.addEventListener ("change", (event) => {
   
 
  
- 
   const clearbtn = document.querySelector('[data-testid="button-clear"]'); //es el evento para que el boton limpie
   clearbtn.addEventListener('click', () => {
     root.innerHTML=""
@@ -35,6 +35,7 @@ selectOrder.addEventListener ("change", (event) => {
   
   })
 
+   
 // console.log(data);
 });
 

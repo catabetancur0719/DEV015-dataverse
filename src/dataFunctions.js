@@ -36,4 +36,11 @@ export const sortData = (data,sortBy,sortOrder) =>{ //ordena el arreglo
 }
 
 //funcion para recibir los calculos x estadistica
-
+export  function computeStats(data) {
+  const usaBands = data.filter(band => band.facts.pais === "Estados Unidos") /* esta busca y contiene todas pas USAband*/
+  const usaPromedio = (usaBands.length * 100 / data.length);
+  /* console.log(usaBands.length * 100 / data.length) ;*/
+  console.log(usaPromedio);
+  return usaPromedio; 
+   
+}
