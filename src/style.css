@@ -18,15 +18,32 @@ header,main{
  color:#f3eaea;   
  }
 
+/*#filtros{ /* este div contiene los selesct y el div pais
+  height:120px;
+  width: 600px;
+  flex-basis:10% ;
+  display:inline-flexbox;
+  /*flex-wrap:wrap;
+}*/
 select{
   height:35px;
   width:160px ;
+  margin:15px auto;
   flex:content;
   display:inline-block;
-   
   padding:6px ;
   background-color: rgba(109, 215, 241, 0.822);
 }
+/*#estadistica{
+  height:100px;
+  width:250px;
+  border:2px solid yellow; 
+  display:inline-flex;
+ 
+ /* display:inline-flexbox;
+  flex:auto ;
+  justify-content: flex-end; 
+}*/
 /*boton limpia fltros*/
 [data-testid="button-clear"]{
     height:35px;
@@ -66,7 +83,7 @@ ul{
   justify-content:space-between;
   /*list-style-type: none;/*elimina las viñeta*/
  }
-li{
+ .cards{
   height: 480px;  
   width:130px; /*ancho*/
   margin-left:20px; /*esta separa las tarjetas*/
@@ -74,9 +91,8 @@ li{
   flex-basis:25% ;
   padding-top:20px;
   text-align:center;
-  background:linear-gradient(145deg,#e20e0e,#ad0a0a,#e22503,#ad0a0a,#7a0606);
   border: 2px solid #c92a02;
-  
+  background:linear-gradient(145deg,#e20e0e,#ad0a0a,#e22503,#ad0a0a,#7a0606);
   border-radius: 15px;
   /*flex: 1 1 calc(33.333% - 100px); /* Distribución flexible de los elementos? */
   /*list-style-type: none;/*elimina las viñeta*/
@@ -90,10 +106,12 @@ img{
   
   border-radius:15px;
 }
+
 footer{
   color:#f3eaea;  
   text-align: center;
   margin:60px; 
+  padding:5px;
 
 }
  

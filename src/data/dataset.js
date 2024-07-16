@@ -7,7 +7,7 @@ export default [
     "imageUrl": "https://www.irock.cl/wp-content/uploads/2015/11/Festify-Guns-n-ROses-768x432.jpg",
     "facts": {
       "añoCreacion": "1985",
-      "lugarCreacion": "Los Ángeles, California, Estados Unidos",
+      "pais":"Estados Unidos",
       "albumMasFamoso": "Appetite for Destruction",
       "integrantes": ["Axl Rose", "Slash", "Duff McKagan", "Dizzy Reed", "Richard Fortus", "Frank Ferrer", "Melissa Reese"]
     }   
@@ -19,8 +19,8 @@ export default [
     "descripcionLarga": "Paramore es una banda estadounidense de rock alternativo formada en 2004 en Franklin, Tennessee. La banda es conocida por su sonido energético y la potente voz de su vocalista Hayley Williams, y ha lanzado varios álbumes exitosos a lo largo de su carrera.",
     "imageUrl":"https://1.bp.blogspot.com/-ABfjweTfAKc/UIKyJusuCdI/AAAAAAAAABQ/NaUwzaMg_ys/s320/paramore+(1).jpg",
     "facts": {
-      "añoCreacion": " 2004",
-      "lugarCreacion": "Franklin, Tennessee, Estados Unidos",
+      "añoCreacion": "2004",
+      "pais":"Estados Unidos",
       "albumMasFamoso": "Riot!",
       "integrantes": ["Hayley Williams", "Taylor York", "Zac Farro"]
     }
@@ -33,11 +33,12 @@ export default [
     "imageUrl":"https://mx.web.img2.acsta.net/r_1920_1080/pictures/24/01/15/22/29/2139696.jpg",
     "facts": {
       "añoCreacion": "1970",
-      "lugarCreacion": "Londres, Inglaterra",
+      "pais":"Inglaterra",
       "albumMasFamoso": "A Night at the Opera",
       "integrantes": ["Freddie Mercury", "Brian May", "Roger Taylor", "John Deacon"]
     }
   },
+ 
   {
     "id": "bon-jovi",
     "name": "Bon Jovi",
@@ -46,20 +47,20 @@ export default [
     "imageUrl": "https://images.squarespace-cdn.com/content/v1/6145a7b457c18a3bdc94fef6/09c8db48-638f-4217-9f5b-8877ac0d04dc/Repasamos+la+%C3%BAltima+gran+obra+de+la+banda+con+el+guitarrista+Richie+Sambora%2C+que+luego+de+una+d%C3%A9cada+se+habla+de+un+posible+regreso.+.jpeg?format=1500w",
     "facts": {
       "añoCreacion": "1983",
-      "lugarCreacion": "Sayreville, Nueva Jersey, Estados Unidos",
+      "pais":"Estados Unidos",
       "albumMasFamoso": "Slippery When Wet",
       "integrantes": ["Jon Bon Jovi", "David Bryan", "Tico Torres", "Phil X", "Hugh McDonald"]
     }
   },
   {
-    "id": "green",
-    "name": "Green Day",
+    "id":"green",
+    "name":"Green Day",
     "shortDescripcion": "Pioneros del punk rock.",
     "descripcionLarga": "Green Day es una banda estadounidense de punk rock formada en 1987 en Berkeley, California. Es conocida por revivir el interés en el punk rock a mediados de los 90 con su álbum 'Dookie'. La banda ha ganado numerosos premios y es reconocida por sus enérgicas actuaciones en vivo.",
     "imageUrl": "https://www.parlante.cl/wp-content/uploads/2017/11/greenday2017.jpg",
     "facts": {
       "añoCreacion": "1987",
-      "lugarCreacion": "Berkeley, California, Estados Unidos",
+      "pais":"Estados Unidos",
       "albumMasFamoso": "Dookie",
       "integrantes": ["Billie Joe Armstrong", "Mike Dirnt", "Tré Cool"]
     }
@@ -72,7 +73,7 @@ export default [
     "imageUrl":"https://indianexpress.com/wp-content/uploads/2014/02/u2-480.jpg",
     "facts": {
       "añoCreacion": "1976",
-      "lugarCreacion": "Dublín, Irlanda",
+      "pais":"Irlanda",
       "albumMasFamoso": "The Joshua Tree",
       "integrantes": ["Bono", "The Edge", "Adam Clayton", "Larry Mullen Jr."]
     }
@@ -86,7 +87,7 @@ export default [
     "imageUrl": "https://garajedelrock.com/wp-content/uploads/2016/08/aerosmith.jpeg",
     "facts": {
       "añoCreacion": "1970",
-      "lugarCreacion": "Boston, Massachusetts, Estados Unidos",
+      "pais":"Estados Unidos",
       "albumMasFamoso": "Toys in the Attic",
       "integrantes": ["Steven Tyler", "Joe Perry", "Tom Hamilton", "Joey Kramer", "Brad Whitford"]
     }
@@ -99,20 +100,20 @@ export default [
     "imageUrl": "https://indiehoy.com/wp-content/uploads/2020/10/acdc.jpg",
     "facts": {
       "añoCreacion": "1973",
-      "lugarCreacion": "Sídney, Australia",
+      "pais":"Australia",
       "albumMasFamoso": "Back in Black",
       "integrantes": ["Angus Young", "Brian Johnson", "Phil Rudd", "Cliff Williams", "Stevie Young"]
     }
   },
   {
-    "id": "blink",
-    "name": "Blink-182",
-    "shortDescripcion": "Banda de pop punk.",
+    "id":"blink",
+    "name":"Blink-182",
+    "shortDescripcion":"Banda de pop punk.",
     "descripcionLarga": "Blink-182 es una banda estadounidense de pop punk formada en 1992 en Poway, California. Conocida por su humor irreverente y su sonido pegajoso, la banda ha lanzado varios álbumes exitosos y se ha convertido en un ícono del pop punk.",
     "imageUrl": "https://indiehoy.com/wp-content/uploads/2021/04/blink-182-1.jpg",
     "facts": {
       "añoCreacion":"1992",
-      "lugarCreacion": "Poway, California, Estados Unidos",
+      "pais":"Estados Unidos",
       "albumMasFamoso": "Enema of the State",
       "integrantes": ["Mark Hoppus", "Travis Barker", "Tom DeLonge"]
     }
@@ -125,7 +126,7 @@ export default [
     "imageUrl": "https://www.ecured.cu/images/f/f3/30_Seconds.jpg",
     "facts": {
       "añoCreacion": "1998",
-      "lugarCreacion": "Los Ángeles, California, Estados Unidos",
+      "pais":"Estados Unidos",
       "albumMasFamoso": "A Beautiful Lie",
       "integrantes": ["Jared Leto", "Shannon Leto"]
     }
@@ -138,7 +139,7 @@ export default [
     "imageUrl":"https://www.futuro.cl/wp-content/uploads/2022/08/metallica-7-768x433.jpg",
     "facts": {
       "añoCreacion":"1981",
-      "lugarCreacion":"Los Ángeles, California, Estados Unidos.",
+      "pais":"Estados Unidos",
       "albumMasFamoso":"Master of Puppets.",
       "integrantes":["James Hetfield", "Lars Ulrich", "Kirk Hammett", "Robert Trujillo."]
     }
@@ -149,8 +150,8 @@ export default [
     "descripcionLarga": "Red Hot Chili Peppers es una banda estadounidense de rock formada en 1983 en Los Ángeles, California. La banda es conocida por su mezcla única de rock, funk y punk, y ha lanzado numerosos álbumes exitosos a lo largo de su carrera.",
     "imageUrl": "https://www.rockandpop.cl/wp-content/uploads/2023/09/Red-Hot-Chili-Peppers-768x432.webp",
     "facts": {
-      "añoCreacion": "1983",
-      "lugarCreacion": "Los Ángeles, California, Estados Unidos",
+      "añoCreacion":"1983",
+      "pais":"Estados Unidos",
       "albumMasFamoso": "Californication",
       "integrantes": ["Anthony Kiedis", "Flea", "Chad Smith", "John Frusciante"]
     }
@@ -163,33 +164,33 @@ export default [
     "imageUrl": "https://s2-g1.glbimg.com/FLMytieGPsqv8T2993Gfl2LMYag=/0x0:800x533/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2016/W/f/VwgB3eTkexohvZXRvRDQ/evanescence.jpg",
     "facts":{
       "añoCreacion": "1995",
-      "lugarCreacion": "Little Rock, Arkansas, Estados Unidos",
-      "albumMasFamoso": "Fallen",
+      "pais":"Estados Unidos",
+      "albumMasFamoso":"Fallen",
       "integrantes": ["Amy Lee", "Tim McCord", "Will Hunt", "Troy McLawhorn", "Jen Majura"]
     }
   },
   {
     "id": "black-veil-brides",
-    "name": "Black Veil Brides",
+    "name":"Black Veil Brides",
     "shortDescripcion": "Banda de rock gótico.",
     "descripcionLarga": "Black Veil Brides es una banda estadounidense de rock formada en 2006 en Cincinnati, Ohio. La banda es conocida por su estética inspirada en el glam metal y su sonido contundente, y ha lanzado varios álbumes exitosos en la escena del rock moderno.",
     "imageUrl":"https://chronamagazinemx.wordpress.com/wp-content/uploads/2023/07/picsart_23-07-25_16-36-13-818.jpg?w=1024", 
     "facts": {
-      "añoCreacion": "2006",
-      "lugarCreacion": "Cincinnati, Ohio, Estados Unidos",
+      "añoCreacion":"2006",
+      "pais":"Estados Unidos",
       "albumMasFamoso": "Wretched and Divine",
       "integrantes": ["Andy Biersack", "Jinxx", "Jake Pitts", "Christian Coma", "Lonny Eagleton"]
     }
   },
   {
-    "id":  "duran-duran",
-    "name": "Duran Duran",
+    "id":"duran-duran",
+    "name":"Duran Duran",
     "shortDescripcion": "Banda de new wave.",
     "descripcionLarga": "Duran Duran es una banda británica de new wave formada en 1978 en Birmingham, Inglaterra. Conocida por sus éxitos en los años 80 y su estilo visual innovador, la banda ha vendido más de 100 millones de discos en todo el mundo.",
     "imageUrl": "https://duranduran.com/app/uploads/2015/04/Screen-Shot-2015-04-15-at-10.22.15-AM-300x202.png",
     "facts": {
       "añoCreacion": "1978",
-      "lugarCreacion": "Birmingham, Inglaterra",
+      "pais":"Inglaterra",
       "albumMasFamoso": "Rio",
       "integrantes": ["Simon Le Bon", "Nick Rhodes", "John Taylor", "Roger Taylor"]
     }
@@ -202,7 +203,7 @@ export default [
     "imageUrl": "https://imagenes.noticiasrcn.com/ImgNoticias/styles/530xauto/s3/noticias/korn_261016.jpg?w=960",
     "facts": {
       "añoCreacion": "1993",
-      "lugarCreacion": "Bakersfield, California, Estados Unidos",
+      "pais":"Estados Unidos",
       "albumMasFamoso": "Follow the Leader",
       "integrantes": ["Jonathan Davis", "James Shaffer", "Brian Welch", "Reginald Arvizu", "Ray Luzier"]
     }
@@ -215,7 +216,7 @@ export default [
     "imageUrl": "https://img2.rtve.es/a/3764488/square/?h=320",
     "facts":{
       "añoCreacion": "1994",
-      "lugarCreacion": "Glendale, California, Estados Unidos",
+      "pais":"Estados Unidos",
       "albumMasFamoso": "Toxicity",
       "integrantes": ["Serj Tankian", "Daron Malakian", "Shavo Odadjian", "John Dolmayan"]
     }
@@ -228,7 +229,7 @@ export default [
     "imageUrl": "https://people.com/thmb/e77aH9_pCmoDW4BYaNjoG2J1qjo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(299x0:301x2):format(webp)/nirvana-600-2-e0f213cb6d7b4fd6907e6b37b89617c3.jpg", 
     "facts": {
       "añoCreacion": "1987",
-      "lugarCreacion": "Aberdeen, Washington, Estados Unidos",
+      "pais":"Estados Unidos",
       "albumMasFamoso": "Nevermind",
       "integrantes": ["Kurt Cobain", "Krist Novoselic", "Dave Grohl"]
     }
@@ -241,7 +242,7 @@ export default [
     "imageUrl": "https://indiehoy.com/wp-content/uploads/2023/07/foo-fighters.jpg",
     "facts": {
       "añoCreacion": "1994",
-      "lugarCreacion": "Seattle, Washington, Estados Unidos",
+      "pais":"Estados Unidos",
       "albumMasFamoso": "The Colour and the Shape",
       "integrantes": ["Dave Grohl", "Nate Mendel", "Pat Smear", "Taylor Hawkins", "Chris Shiflett", "Rami Jaffee"]
     }
@@ -254,7 +255,7 @@ export default [
     "imageUrl": "https://cooperativa.cl/noticias/site/artic/20170918/imag/foto_0000000120170918191406.jpg", 
     "facts": {
       "añoCreacion": "1996",
-      "lugarCreacion": "Agoura Hills, California, Estados Unidos",
+      "pais":"Estados Unidos",
       "albumMasFamoso": "Hybrid Theory",
       "integrantes": ["Mike Shinoda", "Brad Delson", "Dave Farrell", "Joe Hahn", "Rob Bourdon", "Chester Bennington"]
     }
@@ -267,20 +268,20 @@ export default [
     "imageUrl": "https://laopinion.com/wp-content/uploads/sites/3/2023/01/brendonurie-getty.jpg?resize=1316,740&quality=80",
     "facts": {
       "añoCreacion": "2004",
-      "lugarCreacion": "Las Vegas, Nevada, Estados Unidos",
+      "pais":"Estados Unidos",
       "albumMasFamoso": "A Fever You Can't Sweat Out",
       "integrantes": ["Brendon Urie"]
     }
   },
   {
     "id": "pearl-jam",
-    "name": "Pearl Jam",
+    "name":"Pearl Jam",
     "shortDescripcion": "Banda de grunge.",
     "descripcionLarga": "Pearl Jam es una banda estadounidense de grunge formada en 1990 en Seattle, Washington. Con Eddie Vedder como vocalista, la banda es conocida por su sonido potente y sus letras introspectivas, y es una de las bandas más importantes del movimiento grunge.",
     "imageUrl": "https://www.ultrabrit.com/wp-content/uploads/2019/12/PEARLJAM2020-1.jpg",
     "facts": {
       "añoCreacion": "1990",
-      "lugarCreacion": "Seattle, Washington, Estados Unidos",
+      "pais":"Estados Unidos",
       "albumMasFamoso": "Ten",
       "integrantes": ["Eddie Vedder", "Stone Gossard", "Jeff Ament", "Mike McCready", "Matt Cameron"]
     }
@@ -293,7 +294,7 @@ export default [
     "imageUrl": "https://www.laxcali.com/uploads/newsarticle/5fb4a85f144f4cc98383e613e93f067d/516171-the-beatles.jpeg",
     "facts": {
       "añoCreacion": "1960",
-      "lugarCreacion": "Liverpool, Inglaterra",
+      "pais":"Inglaterra",
       "albumMasFamoso": "Sgt. Pepper's Lonely Hearts Club Band",
       "integrantes": ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"]
     }
@@ -306,10 +307,12 @@ export default [
     "imageUrl": "https://www.tiempoar.com.ar/wp-content/uploads/2021/05/8af1d850bdbd5ffc44d5a4044d327a82_BIG.jpg ",
     "facts": {
       "añoCreacion": "1962",
-      "lugarCreacion": "Londres, Inglaterra",
+      "pais":"Inglaterra",
       "albumMasFamoso": "Sticky Fingers",
       "integrantes": ["Mick Jagger", "Keith Richards", "Charlie Watts", "Ronnie Wood"]
     }
     
   }
 ];
+
+
