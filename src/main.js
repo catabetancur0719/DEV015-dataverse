@@ -1,8 +1,8 @@
 import {filterData,sortData,computeStats} from './dataFunctions.js';
-import {renderItems,usaPromedio} from './view.js';
+import {renderItems,renderResult} from './view.js';
 import data from './data/dataset.js';
 computeStats(data);
-usaPromedio(data);
+
 //aqui va todo lo del DOM eventos de escucha y mostrar datos en pantalla
 
 //console.log(sortData,renderItems(data), data);
@@ -26,7 +26,6 @@ selectOrder.addEventListener ("change", (event) => {
   root.innerHTML= ""  // captura el div  del root y lo limpia
   root.appendChild(renderItems(ordenLetras)); //agrega los nuevos elementos ordenados
   
-
  
   const clearbtn = document.querySelector('[data-testid="button-clear"]'); //es el evento para que el boton limpie
   clearbtn.addEventListener('click', () => {
@@ -35,7 +34,9 @@ selectOrder.addEventListener ("change", (event) => {
   
   })
 
-   
+  //contiene el resultado de la estadistica
+  const result = computeStats(data);
+  renderResult(result);
 // console.log(data);
 });
 

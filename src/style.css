@@ -59,7 +59,14 @@ select{
 [data-testid="button-clear"]:hover{
   background-color: #6e70df;
 }
+.estadistica{
+  height:80px ;
+  width:200px ; 
+  display:inline-flexbox ;
+  margin-left: 50%;
 
+  background-color: #e20e0e;
+ }
 /*estilos para las tarjetas ul y li*/
 
 .root{

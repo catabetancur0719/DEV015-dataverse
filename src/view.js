@@ -25,14 +25,31 @@ export const renderItems = (data) => {
    <p></p>`  
   newBandElement.appendChild(newBandElement);*/
 
+  /* Crear el nodo <div> para estadísticas
+  const newBandElement = document.createElement("div");
+  newBandElement.classList.add("estadistica")
+  newBandElement.innerHTML = `
+    <p><strong>Dato Curioso</strong></p>
+    <p>Aquí podrías agregar tus estadísticas o información adicional.</p>
+  `;
 
+  // Agregar el nodo <div> al final del <ul>
+  newElementUl.appendChild(newBandElement)*/
   return newElementUl;
-  
-
 };
-  
-  
+export function renderResult(result) {
+  const resultContainer = document.createElement('div');
+  resultContainer.classList.add("estadistica")
+  const resultElement = document.createElement('p');
+  resultElement.classList.add("estadistica")
+  resultElement.textContent = `Porcentaje de bandas creadas en EE.UU.: ${result}%`;
 
+  resultContainer.appendChild(resultElement);
+  document.body.appendChild(resultContainer);
+  return renderResult;
+}  
+  
+/* esto es para el nuevo commit*/
 
   
  
