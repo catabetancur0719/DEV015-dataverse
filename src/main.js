@@ -1,6 +1,7 @@
-import {filterData,sortData,computeStats} from './dataFunctions.js';
+import {filterData,sortData,computeStats,} from './dataFunctions.js';
 import {renderItems,renderResult} from './view.js';
 import data from './data/dataset.js';
+
 computeStats(data);
 
 //aqui va todo lo del DOM eventos de escucha y mostrar datos en pantalla
@@ -39,7 +40,6 @@ selectOrder.addEventListener ("change", (event) => {
   renderResult(result);
 // console.log(data);
 });
-
 
 
 

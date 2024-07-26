@@ -1,49 +1,77 @@
+.container{
+  margin:1%;
+  padding:1%;
+  position: relative;
+}
+
 body{
 background:linear-gradient(135deg,#0b0b27,#000000);
 background-attachment: fixed;
 color:#f3eaea;
 }
-#banner img {
+#banner img{
   height:300px; 
-  width: 850px; /*ancho*/
+  width: 70%; /*ancho*/
   display:flex;
-  margin:40px auto;
-  object-fit:cover;
+  margin:0 auto;/*centra imgen*/
+
   }
 
 header,main{
- font-family:'Gothic Medium'; 
+ height:45px ;
+ width:90% ;
+ font-family:'Georgia'; 
+ margin: 40px auto;
  text-align: center; 
  display:flexbox;
  color:#f3eaea;   
  }
 
-/*#filtros{ /* este div contiene los selesct y el div pais
-  height:120px;
-  width: 600px;
-  flex-basis:10% ;
-  display:inline-flexbox;
-  /*flex-wrap:wrap;
-}*/
+.filtros{ /* este div contiene los selesct y el div pais*/
+  height:80px;
+  width: 95%;
+  padding: 12px;
+  margin:50px auto;
+  display:flex;
+  justify-content: space-between 15px;
+  position: relative;
+
+  
+}
 select{
   height:35px;
   width:160px ;
   margin:15px auto;
   flex:content;
+  font-size: 15px;
   display:inline-block;
   padding:6px ;
   background-color: rgba(109, 215, 241, 0.822);
 }
-/*#estadistica{
-  height:100px;
-  width:250px;
-  border:2px solid yellow; 
-  display:inline-flex;
- 
- /* display:inline-flexbox;
+.estadistica { /*AQUI EL PROBLEMA ES COMO LLAMARLO Y DONDE ESTA */
+  height:75px ;
+  width:50% ; 
+  border:2px solid rgb(223, 17, 10); 
+  background-color:rgb(19, 109, 151) ;
+  display:inline-flexbox;
   flex:auto ;
-  justify-content: flex-end; 
-}*/
+  justify-content: flex-end;
+}
+
+/*#paises{
+ height:75px ;
+ width:30% ;
+ position:absolute; 
+ background-color: rgb(117, 117, 247);
+ text-align: start;
+ color:whitesmoke;
+ font-family: 'calibri';
+ font-size: large;
+ display:flex;
+} */
+
+
+
 /*boton limpia fltros*/
 [data-testid="button-clear"]{
     height:35px;
@@ -59,63 +87,60 @@ select{
 [data-testid="button-clear"]:hover{
   background-color: #6e70df;
 }
-.estadistica{
-  height:80px ;
-  width:200px ; 
-  display:inline-flexbox ;
-  margin-left: 50%;
 
-  background-color: #e20e0e;
- }
 /*estilos para las tarjetas ul y li*/
-
 .root{
   height:60% ;
   width: 60%;
-  margin:35%;
+  /*margin:35%;*/
+  justify-content: space-between;
   /*margin-block:80px ;*/
-  /*padding: 60px;/*separa las tarjetas de los filtros*/
-  display:inline-flexbox;
-  flex-wrap:wrap ;/*este envuelve los elementos li*/
+ /* display:inline-flexbox;*/
+ /* flex-wrap:wrap ;/*este envuelve los elementos li*/
   
 }
 ul{
   height:70% ;
-  width:70% ;
-  margin:40px auto;
-  padding:20px ;
+  width:85% ;
+  margin:0 auto ;/*centra el ul con las tarjetas*/
+  padding:1%;
   color:#0e0d0d; 
   display:flex;/* agrupa las tarjetas horizontalmente*/
   flex-wrap:wrap; /*asegura que los li se envuelvan*/
-  justify-content:space-between;
+  justify-content:space-around;
   /*list-style-type: none;/*elimina las viñeta*/
  }
- .cards{
-  height: 480px;  
-  width:130px; /*ancho*/
-  margin-left:20px; /*esta separa las tarjetas*/
+ li{
+  height: 530px;  
+  width:90px; /*ancho*/
+  margin-left:2%; /*esta separa las tarjetas*/
   margin-bottom:30px;
-  flex-basis:25% ;
+  color:whitesmoke;
+  font-size:larger;
+  font-family: 'arial';
+  flex-basis:27% ;/*este da tamaño a la tarjeta*/
   padding-top:20px;
+  padding:2% ;
   text-align:center;
-  border: 2px solid #c92a02;
-  background:linear-gradient(145deg,#e20e0e,#ad0a0a,#e22503,#ad0a0a,#7a0606);
+  border: 2px solid #e22b0a;
+  background:linear-gradient(145deg,#e20e0e,#ad0a0a,#eb2907,#ad0a0a,#7a0606);
   border-radius: 15px;
   /*flex: 1 1 calc(33.333% - 100px); /* Distribución flexible de los elementos? */
-  /*list-style-type: none;/*elimina las viñeta*/
+  list-style-type: none;/*elimina las viñeta*/
  }
 
 img{
   height:170px; 
-  width:210px;
+  width:79%; /*210px*/
   padding:0;
+  display:center ;
   border:5px solid #000000;
-  
   border-radius:15px;
 }
 
 footer{
-  color:#f3eaea;  
+  color:#f3eaea; 
+  font-size: larger; 
   text-align: center;
   margin:60px; 
   padding:5px;
