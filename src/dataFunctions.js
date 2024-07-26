@@ -40,7 +40,8 @@ export  function computeStats(data) {
   const usaBands = data.filter(band => band.facts.pais === "Estados Unidos") /* esta busca y contiene todas pas USAband*/
   const usaPromedio = (usaBands.length * 100 / data.length);
   /* console.log(usaBands.length * 100 / data.length) ;*/
-  console.log(usaPromedio);
+  /* console.log(usaPromedio);*/
   return usaPromedio; 
    
 }
+
