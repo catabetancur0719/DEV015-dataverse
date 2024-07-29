@@ -1,8 +1,17 @@
-import {filterData,sortData,computeStats,} from './dataFunctions.js';
+import {filterData,sortData,computeStats,decadasData} from './dataFunctions.js';
 import {renderItems,renderResult} from './view.js';
 import data from './data/dataset.js';
 
 computeStats(data);
+decadasData(data);
+
+//contiene el resultado de la estadistica
+const result = computeStats(data);
+renderResult(result);
+// console.log(data);
+
+const resultadosEstadisticas = document.getElementById("estadisticas")
+
 
 //aqui va todo lo del DOM eventos de escucha y mostrar datos en pantalla
 
@@ -36,9 +45,11 @@ selectOrder.addEventListener ("change", (event) => {
   })
 
   //contiene el resultado de la estadistica
-  const result = computeStats(data);
-  renderResult(result);
-// console.log(data);
+  //const result = computeStats(data);
+  //renderResult(result);
+  // console.log(data);
+  
+
 });
 
 

@@ -31,10 +31,10 @@ export const renderItems = (data) => {
 
 
 export function renderResult(result) {
-  const resultContainer = document.createElement('div');
+ const resultContainer = document.createElement('div');
   resultContainer.classList.add("estadistica")
   const resultElement = document.createElement('p');
-  resultElement.classList.add("estadistica")
+  resultElement.classList.add("estadistica") 
   resultElement.textContent = `Bandas creadas en EE.UU.: ${result}%`;
 
   resultContainer.appendChild(resultElement);
