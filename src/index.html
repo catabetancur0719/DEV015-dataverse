@@ -20,7 +20,7 @@
    </main>
   </div>
   <div class="filtros" name="filtros"> 
-    <form action="">
+    <form action="" class="form">
       <label for="select-order" >Buscar:</label>
       <select name="name" data-testid="select-sort" id="select-order">
         <option value="selecionar"> selección</option>
@@ -40,7 +40,6 @@
         <option value="1981">1981</option> <!-- Metallica -->
         <option value="1983">1983</option> <!-- Bon Jovi  Red Hot Chili Peppers -->
         <option value="1985">1985</option> <!-- Guns N' Roses -->
-        <option value="1986">1986</option> <!-- Green Day -->
         <option value="1987">1987</option> <!-- Nirvana -->
         <option value="1990">1990</option> <!-- Pearl Jam -->
         <option value="1992">1992</option> <!-- Blink-182 -->
@@ -55,13 +54,11 @@
       <button type="reset" data-testid="button-clear" id="btn">Limpiar</button>
     </form>
     <div class="estadistica" id="estadisticas"> 
-     <div class="pais" id="paises"> 
-      <!-- aqui van las estadisticas por pais <h3>Dato Curioso</h3>-->
-     
-     </div>
+     <div class="pais" id="paises"></div>
+     <div class="decadas" name="decadas" id="decade"></div>
     </div>
      
-   </div>
+   </div> 
   <div class="tarjetas" id="root">
    <!-- aqui van las tarjetas------>
   

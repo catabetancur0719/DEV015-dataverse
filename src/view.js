@@ -28,24 +28,24 @@ export const renderItems = (data) => {
 };
 
 
-
-
 export function renderResult(result) {
-  const resultContainer = document.createElement('div');
-  resultContainer.classList.add("estadistica")
-  const resultElement = document.createElement('p');
-  resultElement.classList.add("estadistica")
-  resultElement.textContent = `Bandas creadas en EE.UU.: ${result}%`;
+  const resultContainer = document.getElementById('estadisticas');
+  //resultContainer.classList.add("estadistica")
+  const resultElement = document.getElementById('paises');
+  //resultElement.classList.add("estadistica")
+  resultElement.textContent = `${result}% De las bandas fueron creadas en EE.UU.`;
 
   resultContainer.appendChild(resultElement);
   document.body.appendChild(resultContainer);
   return renderResult;
 } 
+/*AQUI HABIA Q EXPORTAR LA FUNCION PARA LA DECADA DE LOS 90 */
+export function renderDecadas(decadaResult){
+  const estadisticasDecada = document.getElementById('estadisticas');
+  const resultadoDecadas = document.getElementById('decade');
+  resultadoDecadas.textContent = ` ${decadaResult}% De las bandas son la decada de los 90s`;
+  document.body.appendChild(estadisticasDecada);
+  return renderDecadas
+
   
-
-
-  
- 
- 
-   
-
+}

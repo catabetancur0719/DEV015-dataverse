@@ -1,12 +1,14 @@
-import { example, anotherExample } from '../src/dataFunctions.js';
+import { filterData/*sortData,computeStats,decadasData*/} from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
 
 console.log(fakeData);
 
-describe('example', () => {
-
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+//PRUEBA PARA EL METODO FILTER 
+describe ('should return all data when "all" is pased', () => {
+  const result =filterData(testData,'all');
+  expect(result).toEqual(expectedAll);
+  it('should filter data inascendin `filterdata`', () => {
+    expect(filterData(asc,desc)).toBe('filterData');
   });
 });
 
@@ -16,3 +18,4 @@ describe('anotherExample', () => {
     expect(anotherExample()).toBe('OMG');
   });
 });
+//registro
