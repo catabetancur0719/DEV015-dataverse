@@ -39,9 +39,25 @@ export const sortData = (data,sortBy,sortOrder) =>{ //ordena el arreglo
 export  function computeStats(data) {
   const usaBands = data.filter(band => band.facts.pais === "Estados Unidos") /* esta busca y contiene todas pas USAband*/
   const usaPromedio = (usaBands.length * 100 / data.length);
-  /* console.log(usaBands.length * 100 / data.length) ;*/
-  /* console.log(usaPromedio);*/
+  
   return usaPromedio; 
    
+}
+//calular el porcentaje de bandas por decada
+export function decadasData(data) {
+  const decadaDeCreacion= data.map(data => data.facts.añoCreacion);
+
+  const bandasNoventeras= decadaDeCreacion.reduce((count, year) => {
+    if (year >= 1990 && year < 2000) {
+      return count + 1;
+    } else {
+      return count;
+    }
+  }, 0);
+
+  //console.log(bandasNoventeras);
+    
+
+  return bandasNoventeras;
 }
 
