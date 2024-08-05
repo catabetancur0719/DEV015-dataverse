@@ -4,6 +4,7 @@ import data from './data/dataset.js';
 
 computeStats(data);
 decadasData(data);
+//aqui va todo lo del DOM eventos de escucha y mostrar datos en pantalla
 
 //contiene el resultado de la estadistica DE LUGAR DE CREACION
 const result = computeStats(data);
@@ -11,9 +12,8 @@ renderResult(result);
 
 // contiene el resultado de la estadistica de bandas POR decadas
 const decadaResult = decadasData(data);
-renderDecadas(decadaResult);
+renderDecadas(decadaResult);  
 
-//aqui va todo lo del DOM eventos de escucha y mostrar datos en pantalla
 
 //console.log(sortData,renderItems(data), data);
 const root =  document.getElementById("root");
@@ -43,15 +43,7 @@ selectOrder.addEventListener ("change", (event) => {
     root.appendChild(renderItems(data));
   
   })
-  /*AQUI HABRIA Q AGREGAR UN QUERYSELECTOR PARA LA ESTADISTICA DE DECADAS
-  const resulEstadisticas = document.querySelector("estadisticas");
-  resulEstadisticas.addEventListener('');
-
-  ontiene el resultado de la estadistica
-  const result = computeStats(data);
-  renderResult(result);
-  
-// console.log(data);*/
+ 
 });
 
 
