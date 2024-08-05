@@ -1,4 +1,4 @@
-//aqui van las funciones
+//Este archivo contiene las funciones
 //  aqui van las funciones del filtro
 export const filterData = (data, value) => {
   if (value === "all") {
@@ -12,7 +12,7 @@ export const filterData = (data, value) => {
 
 export const sortData = (data,sortBy,sortOrder) =>{ //ordena el arreglo
 
-  const sortDataResult = data.sort(function(a,b){//fx compara y determina como ordenar los
+  const sortDataResult = data.sort(function(a,b){//funcion compara y determina como ordenar los
     if (sortOrder === "asc") {
       if (a[sortBy] > b[sortBy]) {
         return 1; 
@@ -54,9 +54,6 @@ export function decadasData(data) {
       return count;
     }
   }, 0);
-
-  //console.log(bandasNoventeras);
-    
 
   return bandasNoventeras;
 }

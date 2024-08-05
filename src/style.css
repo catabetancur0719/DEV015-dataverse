@@ -50,18 +50,13 @@ select{
 .estadistica { /*este contiene paises y decadas*/
   width:35% ; 
   padding:4px;
- 
   margin: 0 auto;/*centra el div*/
   font-family: 'georgia';
   font-size: 17px;
   border:2px solid rgb(223, 17, 10); 
   background:linear-gradient(145deg,#e20e0e,#ad0a0a,#eb2907,#ad0a0a,#7a0606);
   display:flex;
-  /*justify-content:flex-start;*/
-
- 
-
-  
+  /*justify-content:flex-start;*/ 
 }
 
 #paises{
