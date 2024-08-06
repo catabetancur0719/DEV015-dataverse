@@ -123,7 +123,7 @@ ul{
   justify-content:space-around;
   /*list-style-type: none;/*elimina las viñeta*/
  }
- li{  
+ .cards{  
   width:90px; /*ancho*/
   margin-left:2%; /*esta separa las tarjetas*/
   margin-bottom:30px;
