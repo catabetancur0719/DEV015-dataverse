@@ -8,8 +8,8 @@ export const renderItems = (data) => {
     const newElementLi = document.createElement("li"); 
     newElementLi.classList.add("cards")
 
-    // newElementLi.setAttribute("itemtype", "http://schema.org/Item"); 
-    // newElementLi.setAttribute("itemscope", ""); 
+    newElementLi.setAttribute("itemtype", "http://schema.org/Item"); 
+    newElementLi.setAttribute("itemscope", ""); 
 
     
     newElementLi.innerHTML += ` 
